@@ -5,7 +5,7 @@ var url = 'https://dl.dropboxusercontent.com/s/asp1md523t3jq0s/msa.web.pdf';
 var pdfjsLib = window['pdfjs-dist/build/pdf'];
 
 // The workerSrc property shall be specified.
-pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://raw.githubusercontent.com/mozilla/pdf.js/master/src/pdf.worker.js';
+pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdn.jsdelivr.net/gh/ccbserv/mtss@package/build/pdf.worker.min.js';
 
 var pdfDoc = null,
     pageNum = 1,
